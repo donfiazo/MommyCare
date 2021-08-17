@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/boys_clothes"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_boys_clothes_icon"
+        android:title="Boys Clothes"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/girls_clothes"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_girls_clothes_icon"
+        android:title="Girls Clothes"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/shoes"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_shoe_icon"
+        android:title="Shoes"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/toys"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_toy_icon"
+        android:title="Toys"
+        app:showAsAction="never"/>
+    </group>
+</menu>
